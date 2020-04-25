@@ -166,10 +166,47 @@ nav a:hover{
 .slider{
 
 }
+.films{
+  margin: 50px auto;
+  width: 60%;
+}
+.films-about{
 
+}
+.films-about h2{
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  padding: 15px 0;
+}
+.films-about p{
+  text-align: center;
+  width: 95%;
+  margin: 0 auto;
+}
+.film-1{
+  width: 100%;
+  margin: 30px 0;
+}
+.film-2{
+  width: 100%;
+  margin: 30px 0;
+}
+.video{
+  width: 40%;
+  height: 250px;
+  float: left;
+}
+.abtvideo{
+  width: 59%;
+  float: left;
+}
+.v-name{
 
+}
+.v-desc{
 
-
+}
 /*=================================
   main styling ends here
 =================================*/
