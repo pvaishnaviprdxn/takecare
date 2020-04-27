@@ -231,13 +231,40 @@ nav a:hover{
 }
 .btn a{
   padding: 10px 30px;
-  border: 1px solid;
   border-radius: 30px;
   text-transform: uppercase;
   font-weight: bold;
   color: white;
   background-color:rgba(52,173,242);
 }
+.btn a:hover{
+  background-color:white;
+  color: rgba(52,173,242);
+  border: 1px solid;
+}
+.bck-img{
+  background-image: url('../images/hf.jpeg');
+  width: 100%;
+  height: 500px;
+}
+.h-r-tool{
+  margin: 0 auto;
+    width: 50%;
+    height: auto;
+}
+.h-r-tool h2{
+  color: white;
+  padding: 150px 0 0 0;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.h-r-tool p{
+  text-align: center;
+  color: white;
+  padding: 20px 0 50px 0;
+}
+
 /*=================================
   main styling ends here
 =================================*/
