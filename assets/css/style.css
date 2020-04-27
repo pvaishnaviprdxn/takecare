@@ -225,6 +225,7 @@ nav a:hover{
 }
 .see-more-films{
   margin: 30px auto;
+  height: 40px;
 }
 .btn{
   text-align: center;
