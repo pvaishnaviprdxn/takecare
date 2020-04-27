@@ -18,7 +18,7 @@ function displaySlides(n){
         slide_index = slides.length 
     }  
     for (i = 0; i < slides.length; i++) {  
-        slides[i].classList.add("prev");
+        slides[i].style.display = "none";
     }  
-    slides[slide_index - 1].classList.add("next");  
+    slides[slide_index - 1].style.display = "block";
 }  
