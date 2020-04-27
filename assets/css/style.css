@@ -163,9 +163,8 @@ nav a:hover{
   font-weight: bold;
 }
 .slider{
-  max-width: 100px;
+  max-width: 100%;
   position: relative;
-  margin: auto;
 }
 .showSlide{
   display:none;
@@ -189,6 +188,10 @@ nav a:hover{
 .left:hover, .right:hover {  
   background-color: rgba(115, 115, 115, 0.8);  
 }
+.right {  
+  right: 0;  
+  border-radius: 3px 0 0 3px;  
+} 
 .active {  
   background-color: #717171;  
 } 
