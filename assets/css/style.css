@@ -244,6 +244,7 @@ nav a:hover{
 }
 .bck-img{
   background-image: url('../images/hf.jpeg');
+  background-size: cover;
   width: 100%;
   height: 500px;
 }
@@ -263,8 +264,28 @@ nav a:hover{
   text-align: center;
   color: white;
   padding: 20px 0 50px 0;
+  line-height: 1.5;
 }
-
+section{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.campaign{
+  width: 50%;
+  margin: 0 auto;
+}
+.campaign h2{
+  padding: 20px 0 0 0;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.campaign p{
+  text-align: center;
+  padding: 20px 0;
+  line-height: 1.5;
+  color: #514a4a;
+}
 /*=================================
   main styling ends here
 =================================*/
